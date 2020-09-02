@@ -1,0 +1,56 @@
+﻿<Page x:Class="Furniture_Store.AdminPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Furniture_Store"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminPanel">
+
+    <Grid>
+        <StackPanel Margin="20 0 0 0" Orientation="Vertical">
+            <TextBlock HorizontalAlignment="Center" Text="Добавить товар" FontSize="30"/>
+            
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="170" FontSize="22" Text="Название: "/>
+                <TextBox x:Name="prodTitle" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="170" FontSize="22" Text="Цена: "/>
+                <TextBox x:Name="prodPrice" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="170" FontSize="22" Text="Поставщик: "/>
+                <TextBox x:Name="prodProvider" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="170" FontSize="22" Text="Тип: "/>
+                <TextBox x:Name="prodType" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="170" FontSize="22" Text="Рейтинг: "/>
+                <TextBox x:Name="prodRating" Width="200"/>
+            </StackPanel>
+
+            <StackPanel Margin="0 10 0 0" Orientation="Horizontal">
+                <TextBlock Width="170" FontSize="22" Text="Картинка: "/>
+                <Button x:Name="uploadImg" Content="Выберите файл..." Click="UploadImg_Click"/>
+            </StackPanel>
+            
+            <TextBlock FontSize="15" x:Name="filePath"/>
+
+            <Button x:Name="addProduct" Content="Добавить товар" Margin="100 30 0 0" Width="150" HorizontalAlignment="Left" Click="AddProduct_Click"/>
+
+            <Button x:Name="toXml" Content="ITEMS_TO_XML" Margin="100 20" Width="150" HorizontalAlignment="Left" Click="ToXml_Click"/>
+
+            <Button HorizontalAlignment="Left" Margin="100 5 0 0" Width="150" x:Name="fromXml" Content="XML_TO_ITEMS" Click="FromXml_Click"/>
+
+
+        </StackPanel>
+    </Grid>
+</Page>

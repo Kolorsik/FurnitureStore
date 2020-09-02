@@ -1,0 +1,52 @@
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\Furniture Store.exe.config
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\Furniture Store.exe
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\Furniture Store.pdb
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\App.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store_MarkupCompile.cache
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store_MarkupCompile.lref
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.g.resources
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture_Store.Properties.Resources.resources
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.csproj.GenerateResource.cache
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.csproj.CoreCompileInputs.cache
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.exe
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.pdb
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\LoginForm.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\LoginForm.baml
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\MaterialDesignColors.dll
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\MaterialDesignColors.pdb
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\MainPage.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\App.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\MainPage.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.csproj.CopyComplete
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\UserControlHome.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\UserControlHome.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\UserControlGoods.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\UserControlGoods.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Furniture Store.csprojAssemblyReference.cache
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\UserControlProduct.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\UserControlProduct.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Catalog.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Catalog.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Account.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Account.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\EditAccount.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\EditAccount.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Cart.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Cart.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\AboutProduct.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\AboutProduct.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Checkout.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Checkout.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Orders.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\Orders.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\OrdersDetails.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\OrdersDetails.baml
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\Oracle.DataAccess.dll
+C:\University\КП\Furniture Store\Furniture Store\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\AdminPanel.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\AdminPanel.baml
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\AboutProgram.g.cs
+C:\University\КП\Furniture Store\Furniture Store\obj\Debug\AboutProgram.baml

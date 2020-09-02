@@ -1,0 +1,65 @@
+﻿<Page x:Class="Furniture_Store.AboutProduct"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Furniture_Store"
+      mc:Ignorable="d" 
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AboutProduct">
+
+    <Grid>
+
+        <StackPanel Orientation="Vertical">
+
+            <TextBlock Text="Информация о товаре" FontFamily="Segoe Print" FontSize="30" TextAlignment="Center" />
+
+            <StackPanel Orientation="Horizontal">
+
+                <Image x:Name="img" Width="350" Height="350" Source="Assets/Table.jpg"/>
+
+                <StackPanel Margin="20 0 0 0" Orientation="Vertical">
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="110" FontSize="20" Text="Название: "/>
+                        <TextBlock x:Name="itemTitle" FontSize="20" Text="Супер крутой стол"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="110" FontSize="20" Text="Тип: "/>
+                        <TextBlock x:Name="itemType" FontSize="20" Text="Стол"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="110" FontSize="20" Text="Поставщик: "/>
+                        <TextBlock x:Name="itemProvider" FontSize="20" Text="АмиМебель"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="110" FontSize="20" Text="Цена: "/>
+                        <TextBlock x:Name="itemPrice" FontSize="20" Text="150$"/>
+                    </StackPanel>
+
+                    <StackPanel Margin="0 100 0 0" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Button Click="MinusRate_Click" x:Name="minusRate" HorizontalAlignment="Left">
+                            <materialDesign:PackIcon Kind="Minus" />
+                        </Button>
+                        <TextBlock x:Name="itemRating" FontSize="17" VerticalAlignment="Center" Text="15" TextAlignment="Center" Width="50" HorizontalAlignment="Center"/>
+                        <Button Click="PlusRate_Click" x:Name="plusRate" HorizontalAlignment="Right">
+                            <materialDesign:PackIcon Kind="Plus" />
+                        </Button>
+                    </StackPanel>
+
+                    <Button Margin="0 10 0 0" Width="150" Content="В корзину" x:Name="butBuy" Click="ButBuy_Click"/>
+
+                    <Button Margin="0 10 0 0" Width="150" Content="Назад" x:Name="butReturn" Click="ButReturn_Click"/>
+
+                </StackPanel>
+            
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

@@ -1,0 +1,54 @@
+﻿<Page x:Class="Furniture_Store.OrdersDetails"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Furniture_Store"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="OrdersDetails">
+
+    <Grid>
+
+        <StackPanel HorizontalAlignment="Center">
+
+            <TextBlock FontFamily="Segoe Print" Text="Информация о заказе" FontSize="20" HorizontalAlignment="Center"/>
+
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBlock FontSize="20" Text="Номер заказа: " Width="180"/>
+                <TextBlock x:Name="idOrder" Text="213" FontSize="20"/>
+            </StackPanel>
+
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBlock FontSize="20" Text="Дата заказа: " Width="180"/>
+                <TextBlock x:Name="date" Text="25.01.2000" FontSize="20"/>
+            </StackPanel>
+
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBlock FontSize="20" Text="Общая стоимость: " Width="180"/>
+                <TextBlock x:Name="orderCost" Text="2221" FontSize="20"/>
+            </StackPanel>
+
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBlock FontSize="20" Text="Работник: " Width="180"/>
+                <TextBlock x:Name="fullnameEmployee" Text="Николай Петрович" FontSize="20"/>
+            </StackPanel>
+
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBlock FontSize="20" Text="Точка доставки: " Width="180"/>
+                <TextBlock x:Name="deliveryPointName" Text="у. Громой 44" FontSize="20"/>
+            </StackPanel>
+
+            <StackPanel Margin="10 0 0 0" Orientation="Horizontal">
+                <TextBlock FontSize="20" Text="Статус заказа: " Width="180"/>
+                <TextBlock x:Name="orderStatus" Text="Доставляется" FontSize="20"/>
+            </StackPanel>
+
+            <Button Margin="0 40 0 0" x:Name="confirmOrderBut" Width="300" Content="Подтвердить получение заказа" Click="ConfirmOrderBut_Click"/>
+
+            <Button x:Name="backBut" Margin="0 80 0 0" Width="220" Content="Назад" Click="BackBut_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

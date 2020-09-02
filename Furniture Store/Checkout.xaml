@@ -1,0 +1,37 @@
+﻿<Page x:Class="Furniture_Store.Checkout"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Furniture_Store"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Checkout">
+
+    <Grid>
+
+        <StackPanel HorizontalAlignment="Center" Margin="10 0 0 0">
+
+            <TextBlock FontFamily="Segoe Print" FontSize="30" TextAlignment="Center" Text="Оформление заказа"/>
+
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <TextBlock Width="150" FontSize="20" Text="Дата заказа: "/>
+                <TextBlock x:Name="orderDate" FontSize="20" Text="008"/>
+            </StackPanel>
+
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <TextBlock Width="150" FontSize="20" Text="Сумма заказа: "/>
+                <TextBlock x:Name="orderCost" FontSize="20" Text="008"/>
+            </StackPanel>
+
+            <StackPanel Margin="5" Orientation="Horizontal">
+                <TextBlock Width="150" FontSize="20" Text="Пункт доставки: "/>
+                <ComboBox SelectedIndex="0" x:Name="deliveryPoint" />
+            </StackPanel>
+
+            <Button x:Name="confirmOrder" Width="200" Margin="0 60 0 0" Content="Подтвердить заказ" Click="ConfirmOrder_Click"/>
+
+        </StackPanel>
+        
+    </Grid>
+</Page>
